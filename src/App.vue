@@ -7,7 +7,7 @@ import QrcodeVue from 'qrcode.vue'
 
 const apps = ref([
   { ver: '', name: 'CVSKLgo UAT', nd: 'https://app.box.com/s/zi7ir5h5qm3fxk6nak7sfmx67ov9w9xc', ios: 'https://testflight.apple.com/join/0WgSF7EN' },
-  { ver: '', name: 'Vesalius Patient Nova', nd: 'https://app.box.com/s/6avwv24c120wqgyfdcmfudsr56ledb77', ios: 'https://testflight.apple.com/join/Z51JPUlX' },
+  { ver: '', name: 'Vesalius Patient IH Demo', nd: 'https://202.73.42.183:43901/mobile_central_2_0_0/files/dev/ihp/demo', ios: 'https://testflight.apple.com/join/69XZDntz' },
   { ver: '...', name: 'Vesalius Patient IH', nd: 'https://202.73.42.183:43901/mobile_central_2_0_0/files/dev/ihp', ios: 'https://testflight.apple.com/join/PKfbGUal' },
   { ver: '...', name: 'Vesalius Patient IH UAT', nd: 'https://202.73.42.183:43901/mobile_central_2_0_0/files/uat/ihp', ios: 'https://testflight.apple.com/join/yTzICG9R' },
   { ver: '...', name: 'SkAi Lite UAT', nd: 'https://202.73.42.183:43901/mobile_central_2_0_0/files/dev/skai-lite', ios: 'https://testflight.apple.com/join/0PsM6mCs' },
