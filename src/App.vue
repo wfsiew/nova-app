@@ -17,11 +17,13 @@ const apps = ref([
 ])
 
 onMounted(async () => {
+  const devihdemo = await fetch('https://202.73.42.183:43901/mobile_central_2_0_0/files/dev/ihp/demo/ver')
   const devih = await fetch('https://202.73.42.183:43901/mobile_central_2_0_0/files/dev/ihp/ver')
   const uatih = await fetch('https://202.73.42.183:43901/mobile_central_2_0_0/files/uat/ihp/ver')
   const skailite = await fetch('https://202.73.42.183:43901/mobile_central_2_0_0/files/dev/skai-lite/ver')
   const skaict = await fetch('https://202.73.42.183:43901/mobile_central_2_0_0/files/dev/skai-ct/ver')
   const skaiproct = await fetch('https://202.73.42.183:43901/mobile_central_2_0_0/files/dev/skai-pro-ct/ver')
+  apps.value[1].ver = await devihdemo.text()
   apps.value[2].ver = await devih.text()
   apps.value[3].ver = await uatih.text()
   apps.value[4].ver = await skailite.text()
