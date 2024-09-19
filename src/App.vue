@@ -7,11 +7,11 @@ import QrcodeVue from 'qrcode.vue'
 
 const apps = ref([
   { ver: '', name: 'CVSKLgo UAT', nd: 'https://app.box.com/s/zi7ir5h5qm3fxk6nak7sfmx67ov9w9xc', ios: 'https://testflight.apple.com/join/0WgSF7EN' },
-  { ver: '', name: 'Vesalius Patient IH Demo', nd: 'https://202.73.42.183:43901/mobile_central_2_0_0/files/dev/ihp/demo', ios: 'https://testflight.apple.com/join/69XZDntz' },
+  { ver: '', name: 'Vesalius Patient IH Demo', nd: 'https://202.73.42.183:43901/mobile_central_2_0_0/files/dev/ihp/demo', ios: 'https://testflight.apple.com/join/1VCA26bv' },
   { ver: '...', name: 'Vesalius Patient IH', nd: 'https://202.73.42.183:43901/mobile_central_2_0_0/files/dev/ihp', ios: 'https://testflight.apple.com/join/PKfbGUal' },
   { ver: '...', name: 'Vesalius Patient IH UAT', nd: 'https://202.73.42.183:43901/mobile_central_2_0_0/files/uat/ihp', ios: 'https://testflight.apple.com/join/yTzICG9R' },
-  { ver: '...', name: 'SkAi Lite UAT', nd: 'https://202.73.42.183:43901/mobile_central_2_0_0/files/dev/skai-lite', ios: 'https://testflight.apple.com/join/0PsM6mCs' },
-  { ver: '...', name: 'SkAi CT UAT', nd: 'https://202.73.42.183:43901/mobile_central_2_0_0/files/dev/skai-ct', ios: 'https://testflight.apple.com/join/6Xv7RLjl' },
+  { ver: '...', name: 'SkAi Lite UAT', nd: 'https://202.73.42.183:43901/mobile_central_2_0_0/files/dev/skai-lite', ios: 'https://testflight.apple.com/join/kM8gtXNq' },
+  { ver: '...', name: 'SkAi CT UAT', nd: 'https://202.73.42.183:43901/mobile_central_2_0_0/files/dev/skai-ct', ios: 'https://testflight.apple.com/join/E23NvWJr' },
   { ver: '', name: 'SkAi Pro UAT', nd: 'https://testflight.apple.com/join/yOud71n7', ios: 'https://testflight.apple.com/join/yOud71n7' },
   { ver: '...', name: 'SkAi Pro CT UAT', nd: 'https://202.73.42.183:43901/mobile_central_2_0_0/files/dev/skai-pro-ct', ios: 'https://testflight.apple.com/join/345Gey6K' }
 ])
